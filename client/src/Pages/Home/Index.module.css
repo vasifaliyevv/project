@@ -1,0 +1,179 @@
+.header{
+    width: 100%;
+    height: 758px;
+    display: flex;
+}
+.header_left{
+    background-color: #384aeb;
+    width: 900px;
+    height: 758px;
+    position: relative;
+}
+li:hover{
+    transition: 1000ms;
+    color: aqua;
+}
+.header_left img{
+transform: translate(60%,9%);
+}
+.header_right{
+    width: 100%;
+}
+.header_right1{
+    margin-top: 200px;
+    margin-left: 400px;
+    width: 500px;
+    height: 300px;
+    display: grid;
+}
+.header_right1 h1{
+    font-size: 45px;
+    font-weight: 1000;
+}
+.header_right1 h4{
+    font-size: 35px;
+    opacity: .7;
+    font-weight: 500;
+}
+.header_right1 p{
+    font-size: 20px;
+    opacity: .5;
+}
+img{
+    cursor: pointer;
+}
+.product{
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productmain{
+width: 90%;
+height: 160vh;
+border: 5px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.maintext2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.cardpro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shopnow{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-image: url("https://preview.colorlib.com/theme/aroma/img/home/parallax-bg.png.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.shop button{
+    border-radius: 28px;
+    width: 180px;
+    height: 60px;
+    background-color: #384aeb;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    margin-top: 30px;
+    color: white;
+}
+.shop h1{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-family: "Oswald",sans-serif;
+    font-size: 46px;
+}
+.shop h4{
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    opacity: .9;
+}
+.shop h6{
+    margin-top: 15px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: .5;
+}
+.shop{
+    margin-top: 150px;
+    margin-left: 400px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainp{
+    width: 80%;
+    height: 150vh;
+}
+.maintext{
+    margin-top: 80px;
+    display: grid;
+    height: 100px;
+}
+.pmain img{
+    border-radius: 5px;
+}
+.newscard{
+    width: 72%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newscardmain{
+    display: grid;
+    height: 450px;
+    width: 350px;
+}
+.newscardmain h1{
+    font-weight: 600;
+    font-size: 18.5px;
+}
+.newscardmain p{
+    opacity: .7 ;
+}
+.newscardmain h4{
+    opacity: .5;
+}
+.newscardmain h6{
+    font-size: 20px;
+}
+.pmain{
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 320px;
+    background-color: bisque;
+    height: 420px;
+}
+.maintext h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+.maintext h4{
+    font-family: 400;
+    font-size: 20px;
+    opacity: .8;
+}
+hr{
+    margin-left: 175px;
+    width: 9%;
+    background-color: black;
+    border: 1px solid blue;
+    height: 1px;
+}
